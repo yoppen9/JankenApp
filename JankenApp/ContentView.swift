@@ -102,7 +102,7 @@ func victoryOrDefeat(playerHand:Int,computerHand:Int) -> String {
     playerHandTemp+=1
     
     if (playerHand == computerHand) {
-        result = "ぽん、、、あいこです"
+        result = "、、、あいこです"
     }
     else if ((playerHand == 2 && computerHand == 0)||(playerHandTemp == computerHand)) {
             result = "ぽん、、、あなたの勝ちです";
